@@ -7,6 +7,10 @@ class Mentoring extends Content {
     private LocalDate date;
 
     public
+    Mentoring ( ) {
+    }
+
+    public
     LocalDate getData ( ) {
         return date;
     }

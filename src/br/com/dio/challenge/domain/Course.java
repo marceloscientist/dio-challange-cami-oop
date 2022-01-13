@@ -5,6 +5,10 @@ class Course extends Content {
     private int trainingHours;
 
     public
+    Course ( ) {
+    }
+
+    public
     int getTrainingHours ( ) {
         return trainingHours;
     }
